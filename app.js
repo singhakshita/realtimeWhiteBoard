@@ -16,6 +16,9 @@ io.on("connection" , function(socket){
         socket.broadcast.emit("onmm" ,point);
     })
 })
+app.get("/home" , function(req ,res){
+    res.end("<h1>welcome to home page</h1>")
+})
 
 let port = process.env.PORT || 3000;
 httpServer.listen(port ,function(){
