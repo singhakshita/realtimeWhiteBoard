@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+.tool-panel{
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.tool-box{
+    margin-top: 12px;
+    margin-left: 20px;
+    height: 70%;
+    width : 200px;
+    border: 1px solid #9852a5;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+.tool-container{
+    margin-top: 12px;
+    margin-left: 20px;
+    height: 70%;
+    width : 500px;
+    border: 1px solid #9852a5;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+.tools{
+    height: 70px;
+}
+
+.pencil-option{
+    height: 50px;
+    width : 200px;
+    border: 1px solid;
+    display: none;
+    border-radius: 10px;
+    margin-top: 100px;
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+}
+.eraser-option{
+    align-self: center;
+    height: 50px;
+    width : 200px;
+    border: 1px solid;
+    display: none;
+    border-radius: 10px;
+    margin-top: 100px;
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+}
+.show{
+    display: block;
+}
